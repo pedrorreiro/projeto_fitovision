@@ -1,0 +1,103 @@
+#sair, #abrir{
+  margin: 10px 0;
+  font-size: 20px;
+  display: none;
+}
+
+.Menu{
+  background-color: #089c04;
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+}
+
+#bodyMenuMobile{
+  width: 20%;
+  background-color: #089c04;
+}
+
+#alternar{
+  display: none;
+}
+
+#icone{
+  display: none;
+}
+
+#icone:hover{
+  cursor: pointer;
+}
+
+.block{
+  padding: 15px 20px;
+}
+
+.op:hover{
+  background-color: #088803;
+  cursor: pointer;
+}
+
+.Menu span{
+  font-size: 18px;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  cursor: auto;
+  padding: 0 10px;
+}
+
+.op{
+  width: 100%;
+}
+
+@media screen and (max-device-width: 768px){
+  .Menu{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+
+  #sair{
+    display: block;
+  }
+
+  #alternar:checked ~ .Menu{
+    height: 240px;
+    transition: all 0.5s;
+  }
+  
+  #alternar:not(:checked) ~ .Menu{
+    height: 0;
+    transition: all 0.5s;
+  }
+
+  #icone{
+    width: "100%";
+    text-align: "center";
+    color: white;
+    display: block;
+  }
+
+  #sair, #abrir{
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .op{
+    text-align: center;
+  }
+
+  
+  #bodyMenuMobile{
+    width: 100%;
+  }
+}
+ 

@@ -1,0 +1,138 @@
+.Navbar{
+  width: 20%;
+}
+
+#infoContent{
+  padding: 20px;
+  text-align: center;
+}
+
+.ant-btn-primary{
+  background: #088803 !important;
+}
+  
+#navbar{
+  background-color: #077703;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+  
+.item{
+  padding: 15px 0;
+  width: 25%;
+  text-align: center;
+}
+
+.item:hover{
+  background-color: #045b03;
+}
+
+.item p{
+  margin-bottom: 0 !important;
+}
+  
+.item:hover{
+  cursor: pointer;
+}
+
+button, #button{
+  background-color: #088803;
+  color: white;
+  border-radius: 3px;
+}
+
+#button{
+  font-size: 14px;
+  padding: 5px 12px;
+  display: inline-block;
+}
+
+#button:hover{
+  cursor: pointer;
+}
+
+#filtros{
+  width: 100%;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 25px 0px;
+}
+
+.filtro{
+  background-color: #088803;
+  padding: 20px;
+  color: white;
+}
+
+.filtro:hover{
+  background-color: #045b03;
+  cursor: pointer;
+}
+
+.filtro:first-child{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.filtro:last-child{
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#tabela{
+  width: 100% !important;
+  overflow: scroll;
+}
+
+#camposFiltro{
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+
+#divTabela{
+  width: 100%;
+  display: inline-block;
+}
+
+#alternarFiltro{
+  display: none;
+}
+
+#buttonMostrarFiltro{
+  display: none;
+}
+
+@media screen and (max-device-width: 768px){
+  #filtros{
+    flex-direction: column;
+  }
+  
+  .filtro{
+    margin-bottom: 5px;
+    border-radius: 7px;
+  }
+
+  #maeFiltros{
+    height: 0px;
+    overflow: hidden;
+  }
+
+  #alternarFiltro:checked ~ #maeFiltros{
+    height: 500px;
+    transition: all 0.5s;
+  }
+  
+  #alternarFiltro:not(:checked) ~ #maeFiltros{
+    height: 0;
+    transition: all 0.5s;
+  }
+
+  #buttonMostrarFiltro{
+    display: block;
+  }
+}

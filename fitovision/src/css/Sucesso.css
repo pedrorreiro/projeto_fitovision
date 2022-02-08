@@ -1,0 +1,22 @@
+#corpo{
+  display: flex;
+}
+
+#lista{
+  overflow: scroll;
+  height: 300px;
+}
+
+#atividades{
+  width: 50%; 
+  padding: 5px 10px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.atividade{
+  background-color: red;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}

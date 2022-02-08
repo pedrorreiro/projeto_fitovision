@@ -1,0 +1,50 @@
+.NovoEnsaio{
+  padding: 20px;
+}
+
+form button:first-child{
+  margin-right: 10px;
+}
+
+#container{
+  padding-left: 20px;
+}
+
+#return{
+  color: #088803;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+#return:hover{
+  cursor: pointer;
+}
+
+.NovoEnsaio .ant-input,
+.NovoEnsaio .ant-picker,
+.NovoEnsaio .ant-input-number,
+.NovoEnsaio .ant-select-selector,
+.NovoEnsaio .ant-checkbox-wrapper{
+  margin-left: 10px;
+}
+
+#body{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#body .metade:first-child{
+  margin-right: 100px;
+}
+
+.metade:nth-child(1){
+  display: inline-block;
+}
+
+.metade:nth-child(2){
+  display: inline-block;
+}
+
+.campo{
+  margin-bottom: 25px;
+}

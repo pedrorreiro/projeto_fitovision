@@ -1,0 +1,51 @@
+.Estoque{
+  padding: 20px;
+}
+
+form button:first-child{
+  margin-right: 10px;
+}
+
+#body{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#container{
+  padding-left: 20px;
+}
+
+#return{
+  color: #088803;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+#return:hover{
+  cursor: pointer;
+}
+
+#lixeira{
+  font-size: "20px"; 
+  color: red;
+}
+
+#lixeira:hover{
+  cursor: pointer;
+}
+
+.NovoEnsaio .ant-input,
+.NovoEnsaio .ant-picker,
+.NovoEnsaio .ant-input-number,
+.NovoEnsaio .ant-select-selector,
+.NovoEnsaio .ant-checkbox-wrapper{
+  margin-left: 10px;
+}
+
+textArea{
+  width: 600px !important ;
+}
+
+.campo{
+  margin-bottom: 25px;
+}

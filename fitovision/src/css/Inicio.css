@@ -1,0 +1,55 @@
+#corpo{
+  padding: 0 5px;
+  padding-top: 25px;
+  width: 100%;
+}
+
+#graficos{
+  display: flex;
+  flex-direction: row;
+}
+
+.canvasjs-chart-canvas{
+  width: 100% !important;
+  height: 300px !important;
+}
+
+#lista{
+  text-align: center;
+  overflow: scroll;
+}
+
+#atividades{
+  padding: 5px 0;
+  background-color: white;
+}
+
+.atividade{
+  border: 1px solid black;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.ant-carousel .slick-dots li button{
+  background: #089c04 !important;
+}
+
+.atividade:hover{
+  background-color:#ffdddd;
+  cursor: pointer;
+}
+
+.atividade p{
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-device-width: 768px){
+  .atividade{
+    width: 100%;
+  }
+  
+}
